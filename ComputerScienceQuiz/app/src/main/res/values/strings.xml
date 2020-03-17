@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ComputerScienceQuiz</string>
+
+    <string name="play_text">Play</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="position">Position</string>
+    <string name="trivia_hint">Trivia Hint</string>
+    <string name="title_question">Computer science quiz (%1$d/%2$d)</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="play_bu">button play</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.computersciencequiz.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.computersciencequiz.GameFragment"
+        android:label="GameFragment" >
+        <action
+            android:id="@+id/action_gameFragment_to_wonFragment"
+            app:destination="@id/wonFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_lostFragment"
+            app:destination="@id/lostFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wonFragment"
+        android:name="com.example.computersciencequiz.WonFragment"
+        android:label="WonFragment" >
+        <action
+            android:id="@+id/action_wonFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lostFragment"
+        android:name="com.example.computersciencequiz.LostFragment"
+        android:label="LostFragment" >
+        <action
+            android:id="@+id/action_lostFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>
