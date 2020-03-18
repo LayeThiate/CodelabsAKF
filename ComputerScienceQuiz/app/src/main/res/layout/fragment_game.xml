@@ -53,7 +53,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/questionImage"
-                tools:text="What color is the Android mascot?" />
+                tools:text="Question?" />
 
             <RadioGroup
                 android:id="@+id/questionRadioGroup"
@@ -76,7 +76,7 @@
                     android:checked="true"
                     android:text="@{game.answers[0]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:text="Blue" />
+                    tools:text="Reponse 1" />
 
                 <RadioButton
                     android:id="@+id/secondAnswerRadioButton"
@@ -85,7 +85,7 @@
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[1]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:text="Green" />
+                    tools:text="Reponse 2" />
 
                 <RadioButton
                     android:id="@+id/thirdAnswerRadioButton"
@@ -94,7 +94,7 @@
                     android:layout_marginBottom="@dimen/question_vertical_margin"
                     android:text="@{game.answers[2]}"
                     android:textSize="@dimen/answer_text_size"
-                    tools:text="Yellow" />
+                    tools:text="Reponse 3" />
 
             </RadioGroup>
 
