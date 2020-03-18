@@ -1,5 +1,5 @@
-#Viseo
-###This project describes the company Viseo
+#Computer science quiz
+###This project 
 
-The goal of this app is to allow to me to be able :
-- use the different layout and view
+The goal of this app is :
+- to practice the bases acquisised on android 
